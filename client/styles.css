@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  font-family: PingFangSC-Light, sans-serif;
+  display: flex;
+  flex: 1;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+}
+
+:local(.main) {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:local(.header) {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+:local(.h1) {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  margin: 20px 0;
+}
+:local(.h2) {
+  font-size: 45px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  color: #d49e31;
+}
+
+
+:local(.display) {
+  font-size: 100px;
+}
+
+:local(.barrage) {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+:local(.barrageItem) {
+  margin: 5px 0;
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+}
+:local(.barrageCtr) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+:local(.barrageInput) {
+  flex: 1;
+  height: 30px;
+}

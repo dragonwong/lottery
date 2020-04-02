@@ -1,0 +1,8 @@
+:local(.barrageButton) {
+  margin: 0 10px;
+  border-bottom: 2px solid #6bb53d;
+  cursor: pointer;
+}
+:local(.disabled) {
+  border-bottom-color: #ff4800;
+}

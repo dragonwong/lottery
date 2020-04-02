@@ -1,0 +1,21 @@
+ :local(.rollBtn) {
+  background-color: #108fe9;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px #696969;
+}
+ :local(.rollBtn:active) {
+  background-color: #0e80d2;
+  box-shadow: 0px 0px #696969;
+}
+
+:local(.isRolling) {
+  background-color: #e94f4f;
+}
+
+:local(.isRolling:active) {
+  background-color: #d24747;
+}

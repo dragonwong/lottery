@@ -1,0 +1,30 @@
+table {
+  margin: 40px auto 0;
+}
+th {
+  padding: 0 10px;
+  font-size: 20px;
+}
+td {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+:local(.special) {
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+:local(.title) {
+  font-size: 40px;
+}
+:local(.cup) {
+  font-size: 50px;
+}
+
+
+
